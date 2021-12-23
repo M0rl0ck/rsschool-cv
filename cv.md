@@ -23,9 +23,9 @@ function multiply(a, b){
 ## Education:
 * South-Russian State University of Economics and Service  
 * Courses:  
-    * HTML and CSS courses on the https://ru.code-basics.com/
-    * Basics of data networks jn the https://intuit.ru/
-    * Introduction to programming on the https://intuit.ru/ (in progress)
+    * HTML and CSS courses on the  https://ru.code-basics.com
+    * Basics of data networks on the  https://intuit.ru
+    * Introduction to programming on the  https://intuit.ru (in progress)
     * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
     
 
