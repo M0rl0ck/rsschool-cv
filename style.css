@@ -1,1 +1,166 @@
-##
+@font-face {
+    font-family: Pushster-Regular;
+    src: url(assets/fonts/Pushster-Regular.ttf);
+}
+
+@font-face {
+    font-family: CarterOne-Regular;
+    src: url(assets/fonts/CarterOne-Regular.ttf);
+}
+
+:root {
+    --text: #d3d614;
+    --bg: #3274ee;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+
+}
+
+h2 {
+    display: inline-block;
+    background-color: var(--bg);
+    padding: 5px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+body{
+    background-color: #303133;
+    color: var(--text);
+    font-family: ;
+}
+
+.conteiner {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+section {
+
+    margin-bottom: 40px;
+}
+
+
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+  }
+
+.nav-items {
+    font-family: CarterOne-Regular;
+    font-size: 28px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--text);
+    padding: 0 20px;
+    margin: 0 10px;
+    line-height: 50px;
+    transition: color 1s;
+  }
+
+  .nav-link:hover, .link:hover {
+      color: var(--bg);
+  }
+
+  .link {
+    color: var(--text);
+    transition: color 1s;
+  }
+
+.profile {
+    display: flex;
+    padding: 20px 10px;
+    margin-top: 100px;
+
+}
+
+.profile-left {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile-right {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.avatar {
+    margin: 20px;
+    width: 280px;
+    border: 15px solid;
+    border-color: var(--bg);
+    border-radius: 50%;
+}
+
+.name {
+    font-family: Pushster-Regular;
+    font-size: 50px;
+    letter-spacing: 0.5rem;
+    padding-bottom: 50px;
+}
+
+.main-conteiner {
+    display: flex;
+
+}
+
+.main-left {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+}
+
+.main-right {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+}
+.list {
+    list-style: none;
+    padding: 0 8px;
+
+}
+
+.list li {
+    padding: 0.2em 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;;
+}
+
+@media (max-width: 890px) {
+
+    .nav-link {
+        line-height: 30px;
+    }
+
+    .profile {
+        flex-direction: column;
+    }
+
+    .main-conteiner {
+        flex-direction: column;
+    }
+
+    * {
+        font-size: 18px;
+    }
+}
